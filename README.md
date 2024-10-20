@@ -1,6 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
+Name :chaithanya.c
+Roll no:2305002004 
 Date of experiment :
 
 
@@ -77,25 +77,80 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition  of 8 bit ALP :
+ MOV AL,14H
+ MOV BL,19H
+ ADD AL,BL
+ HLT
+## Output :
+![image](https://github.com/user-attachments/assets/f9d4b596-d1d9-4ba6-8c4d-4331dd4a3da7)
 
 
-
-## Output  
  
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+## Subtraction   of 8 bit  ALP:
+ MOV AL,14H
+ MOV BL,13H
+ SUB AL,BL
+ HLT
+## Output  :
+![image](https://github.com/user-attachments/assets/4121b331-26f5-4cce-a249-e26f3e819626)
 
 
-## Division alp 
 
-## Output  
+## Multiplication of 8 bit ALP:
+ MOV AL,15H
+ MOV BL,12H
+ MUL BL
+ HLT
 
+ ## Output:
+![image](https://github.com/user-attachments/assets/b10e4297-37b0-4847-8f69-0f5d937bb195)
+
+
+## Division of 8 bit ALP: 
+ MOV AL,28H
+ MOV BL,18H
+ DIV BL
+ HLT
+
+## Output:
+![image](https://github.com/user-attachments/assets/64e25054-3f8c-444f-9dfe-bbb39551d15c)
+
+
+## AND of 8 bit ALP:
+ MOV AL,23H
+ MOV BL,24H
+ AND AL,BL
+ HLT
+## Output:
+![image](https://github.com/user-attachments/assets/db5ab68f-4721-4cd4-8589-3dd985cb955b)
+
+## OR of 8 bit ALP:
+ MOV AL,15H
+ MOV BL,16H
+ OR AL,BL
+ HLT
+## Output:
+![image](https://github.com/user-attachments/assets/677344f6-e088-49d0-84f0-e5f2293959a9)
+
+## NOT of 8 bit ALP:
+ MOV AL,15H
+ NOT AL
+ HLT
+## Output:
+![image](https://github.com/user-attachments/assets/96291a0a-40be-4d6f-8e8f-65a82f0948a9)
+
+## XOR of 8 bit ALP:
+ MOV AL,16H
+ MOV BL,17H
+ XOR AL,BL
+ HLT
+## Output:
+![image](https://github.com/user-attachments/assets/4902cd36-f31a-4484-9c65-07935e447ac1)
 
 ## Result :
+Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified
+successfully
  
 
 
